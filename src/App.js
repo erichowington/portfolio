@@ -1,23 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import ProjectModal from './Components/ProjectModal.jsx';
 
 function App() {
+
+  function handleClick(){
+    console.log("click")
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='header'>
+        <h1>Eric Howington</h1>
+        <h2>Developer and Designer</h2>
+      </div>
+      <ProjectModal handleClick={handleClick}/>
     </div>
   );
 }
