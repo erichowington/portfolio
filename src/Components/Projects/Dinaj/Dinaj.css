@@ -16,12 +16,12 @@ body.active-modal {
     left: 0;
     right: 0;
     bottom: 0;
-    position: center;
+    position: fixed;
 }
 
-.overlay {
+/* .overlay {
     background: rgba(49,49,49,0.8);
-}
+} */
 .dinaj-modal-content {
     position: center;
     top: 40%;
