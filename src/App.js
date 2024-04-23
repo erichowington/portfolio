@@ -1,20 +1,16 @@
-import logo from './logo.svg';
+import ProjectsModal from './Components/Projects/ProjectsModal.jsx';
 import './App.css';
-import ProjectModal from './Components/ProjectModal.jsx';
 
 function App() {
 
-  function handleClick(){
-    console.log("click")
-  }
 
   return (
-    <div className="App">
+    <div className="app-wrapper">
       <div className='header'>
         <h1>Eric Howington</h1>
         <h2>Developer and Designer</h2>
       </div>
-      <ProjectModal handleClick={handleClick}/>
+      <ProjectsModal/>
     </div>
   );
 }
