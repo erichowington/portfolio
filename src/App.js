@@ -8,13 +8,15 @@ function App() {
 
   return (
     <div className="app-wrapper">
-      <div className='header'>
-        <h1>Eric Howington</h1>
-        <h2>Developer and Designer</h2>
+      <div className='header-container'>
+        <div className='header-name'>Eric Howington</div>
+        <div className='header-title'>Developer and Designer</div>
       </div>
-      <ProjectsModal/>
-      <AboutModal/>
-      <ContactModal/>
+      <div className='section-container'>
+        <ProjectsModal/>
+        <AboutModal/>
+        <ContactModal/>
+      </div>
     </div>
   );
 }

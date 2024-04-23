@@ -19,7 +19,7 @@ function AboutModal() {
 
   return (
       <div className='about-wrapper'>
-          <div className='about-contact-modal' onClick={toggleModal}>
+          <div className='open-about-modal' onClick={toggleModal}>
               About
           </div>
           {modal && (

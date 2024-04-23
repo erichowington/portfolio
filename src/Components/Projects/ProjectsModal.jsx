@@ -23,14 +23,14 @@ function ProjectsModal() {
 
     return (
         <div className='projects-wrapper'>
-            <div className='open-modal' onClick={toggleModal}>
+            <div className='open-projects-modal' onClick={toggleModal}>
                 Projects
             </div>
             {modal && (
                 <div className='projects-modal'>
                     <div onClick={toggleModal} className='overlay'></div>
                     <div className='projects-modal-content'>
-                        <Dinaj toggleModal={toggleModal}/>
+                        <Dinaj toggleDinajModal={toggleModal}/>
                         <Hobbyr toggleModal={toggleModal}/>
                         <Rekt toggleModal={toggleModal}/>
                     </div>
