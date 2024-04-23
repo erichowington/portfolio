@@ -21,11 +21,13 @@ body.active-modal {
     left: 50%;
     transform: translate(-50%, -50%);
     line-height: 1.4;
-    background: #f1f1f1;
-    padding: 14px 28px;
-    border-radius: 3px;
-    max-width: 600px;
-    min-width: 300px;
+    background: #fdfff6;
+    padding: 7vw;
+    width:fit-content;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
 }
 
 .close-projects-modal {
@@ -45,3 +47,4 @@ body.active-modal {
     background-color:blue;
     transition:color 0.5s, background-color 0.5s; 
 }
+

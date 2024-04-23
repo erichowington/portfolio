@@ -7,32 +7,32 @@ import Dinaj from './Dinaj/Dinaj.jsx';
 
 
 function ProjectsModal() {
-    const [modal, setModal] = useState(false);
+    const [projectModal, setProjectModal] = useState(false);
 
-    const toggleModal = () => {
-        setModal(!modal);
+    const toggleProjectModal = () => {
+        setProjectModal(!projectModal);
     };
 
     useEffect(() => {
-        if (modal) {
+        if (projectModal) {
             document.body.classList.add('active-modal');
         } else {
             document.body.classList.remove('active-modal');
         }
-    }, [modal]);
+    }, [projectModal]);
 
     return (
         <div className='projects-wrapper'>
-            <div className='open-projects-modal' onClick={toggleModal}>
+            <div className='open-projects-modal' onClick={toggleProjectModal}>
                 Projects
             </div>
-            {modal && (
+            {projectModal && (
                 <div className='projects-modal'>
-                    <div onClick={toggleModal} className='overlay'></div>
+                    <div onClick={toggleProjectModal} className='overlay'></div>
                     <div className='projects-modal-content'>
-                        <Dinaj toggleDinajModal={toggleModal}/>
-                        <Hobbyr toggleModal={toggleModal}/>
-                        <Rekt toggleModal={toggleModal}/>
+                        <Dinaj />
+                        <Hobbyr />
+                        <Rekt />
                     </div>
                 </div>
             )}
@@ -41,3 +41,7 @@ function ProjectsModal() {
 }
 
 export default ProjectsModal;
+
+
+
+

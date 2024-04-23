@@ -1,10 +1,25 @@
 import ProjectsModal from './Components/Projects/ProjectsModal.jsx';
 import ContactModal from './Components/Contact/ContactModal.jsx';
 import AboutModal from './Components/About/AboutModal.jsx';
+import {useState, useEffect } from 'react';
 import './App.css';
 
 function App() {
+  const [modal, setModal] = useState(false);
 
+    const toggleModal = () => {
+        setModal(!modal);
+    };
+
+    useEffect(() => {
+        if (modal) {
+            document.body.classList.add('active-modal');
+        } else {
+            document.body.classList.remove('active-modal');
+        }
+    }, [modal]);
+
+ 
 
   return (
     <div className="app-wrapper">
@@ -14,7 +29,7 @@ function App() {
       </div>
       <div className='section-container'>
         <ProjectsModal/>
-        <AboutModal/>
+        <AboutModal />
         <ContactModal/>
       </div>
     </div>
@@ -22,3 +37,4 @@ function App() {
 }
 
 export default App;
+
