@@ -24,7 +24,7 @@ function AboutModal() {
           </div>
           {modal && (
               <div className='about-modal'>
-                  <div onClick={toggleModal} className='overlay'></div>
+                  <div onClick={toggleModal} className='about-overlay'></div>
                   <div className='about-modal-content'>
                     <p>Brand Statement</p>
                     <p>Work Examples</p>

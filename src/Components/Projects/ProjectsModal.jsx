@@ -1,161 +1,162 @@
-// import React from 'react';
-// import { useState, useEffect } from 'react';
-// import './ProjectsModal.css';
-// import Rekt from './Rekt/Rekt.jsx';
-// import Hobbyr from './Hobbyr/Hobbyr.jsx';
-// import Dinaj from './Dinaj/Dinaj.jsx';
-
+// import React, { useState } from "react";
+// import Rekt from "./Rekt/Rekt.jsx";
+// import Hobbyr from "./Hobbyr/Hobbyr.jsx";
+// import Dinaj from "./Dinaj/Dinaj.jsx";
+// import "./ProjectsModal.css";
+// import ProjectInfoModal from "./ProjectInfoModal.jsx";
 
 // function ProjectsModal() {
-//     const [projectModal, setProjectModal] = useState(false);
+//   const [isModalOpen, setIsModalOpen] = useState(false);
+//   const [selectedProject, setSelectedProject] = useState(null);
 
-//     const toggleProjectModal = () => {
-//         setProjectModal(!projectModal);
-//     };
+//   const handleOpenModal = () => {
+//     setIsModalOpen(true);
+//   };
 
-//     useEffect(() => {
-//         if (projectModal) {
-//             document.body.classList.add('active-modal');
-//         } else {
-//             document.body.classList.remove('active-modal');
-//         }
-//     }, [projectModal]);
+//   const handleCloseModal = () => {
+//     setIsModalOpen(false);
+//     setSelectedProject(null);
+//   };
 
-//     return (
-//         <div className='projects-wrapper'>
-//             <div className='open-projects-modal' onClick={toggleProjectModal}>
-//                 Projects
+//   const handleOverlayClick = () => {
+//     if (isModalOpen) {
+//       handleCloseModal();
+//     }
+//   };
+
+//   const handleButtonClick = (projectComponent) => {
+//     setSelectedProject(projectComponent);
+//   };
+
+//   return (
+//     <div className="projects-wrapper">
+//       <div className="projects-open-modal" onClick={handleOpenModal}>
+//         Projects
+//       </div>
+//       {isModalOpen && (
+//         <>
+//           <div className="projects-overlay" onClick={handleOverlayClick}></div>
+//           <div className="projects-modal">
+//             <div className="projects-modal-content">
+//               <div className="rekt-logo-container">
+//                 <img
+//                   className="open-rekt"
+//                   onClick={() => handleButtonClick(Rekt)}
+//                   src="https://github.com/jbourke16/team-rekt-frontend/blob/dev/public/logos/SQUARE-LOGO.png?raw=true"
+//                   alt="Rekt Logo"
+//                 />
+//               </div>
+
+//               <div className="hobbyr-logo-container">
+//                 <img
+//                   className="open-hobbyr"
+//                   onClick={() => handleButtonClick(Hobbyr)}
+//                   src="https://github.com/erichowington/hobbyr/blob/dev/public/images/hobbyr-logos/hobbyr-logo-orange.png?raw=true"
+//                 />
+//               </div>
+
+//               <div className="dinaj-logo-container">
+//                 <img
+//                   className="open-dinaj"
+//                   onClick={() => handleButtonClick(Dinaj)}
+//                   src="https://github.com/erichowington/DoINeedAJacket/blob/main/public/images/Header_TRNSPRNT.png?raw=true"
+//                 />
+//               </div>
 //             </div>
-//             {projectModal && (
-//                 <div className='projects-modal'>
-//                     <div onClick={toggleProjectModal} className='project-overlay'></div>
-//                     <div className='projects-modal-content'>
-//                         <Dinaj toggleProjectModal={projectModal} />
-//                         <Hobbyr onClick={toggleProjectModal}/>
-//                         <Rekt onClick={toggleProjectModal} />
-//                     </div>
-//                 </div>
-//             )}
-//         </div>
-//     );
+//           </div>
+//         </>
+//       )}
+//       <ProjectInfoModal
+//         isOpen={!!selectedProject}
+//         onClose={handleCloseModal}
+//         projectComponent={selectedProject}
+//       />
+//     </div>
+//   );
 // }
 
 // export default ProjectsModal;
 
-
-
-// import React, { useState, useEffect } from 'react';
-// import Rekt from './Rekt/Rekt.jsx';
-// import Hobbyr from './Hobbyr/Hobbyr.jsx';
-// import Dinaj from './Dinaj/Dinaj.jsx';
-
-// function ProjectsModal() {
-//     const [projectModal, setProjectModal] = useState(false);
-//     const [selectedProject, setSelectedProject] = useState(null);
-
-//     const toggleProjectModal = () => {
-//         setProjectModal(!projectModal);
-//     };
-
-//     const handleButtonClick = (projectComponent) => {
-//         setSelectedProject(projectComponent);
-//     };
-
-//     const handleCloseModal = () => {
-//         setSelectedProject(null);
-//         setProjectModal(false); // Close the modal when project is selected
-//     };
-
-//     useEffect(() => {
-//         if (projectModal) {
-//             document.body.classList.add('active-modal');
-//         } else {
-//             document.body.classList.remove('active-modal');
-//         }
-//     }, [projectModal]);
-
-//     return (
-//         <div className='projects-wrapper'>
-//             <div className='open-projects-modal' onClick={toggleProjectModal}>
-//                 Projects
-//             </div>
-//             {projectModal && (
-//                 <div className='projects-modal'>
-//                     <div onClick={toggleProjectModal} className='project-overlay'></div>
-//                     <div className='projects-modal-content'>
-//                         <button onClick={() => handleButtonClick(Rekt)}>Rekt</button>
-//                         <button onClick={() => handleButtonClick(Hobbyr)}>Hobbyr</button>
-//                         <button onClick={() => handleButtonClick(Dinaj)}>Dinaj</button>
-//                     </div>
-//                 </div>
-//             )}
-//             {selectedProject && (
-//                 <div className='modal'>
-//                     <div className='modal-content'>
-//                         <span className='close' onClick={handleCloseModal}>&times;</span>
-//                         <selectedProject onClose={handleCloseModal} />
-//                     </div>
-//                 </div>
-//             )}
-//         </div>
-//     );
-// }
-
-// export default ProjectsModal;
-
-
-
-
-import React, { useState } from 'react';
-import Rekt from './Rekt/Rekt.jsx';
-import Hobbyr from './Hobbyr/Hobbyr.jsx';
-import Dinaj from './Dinaj/Dinaj.jsx';
-import './ProjectsModal.css';
-import ProjectInfoModal from './ProjectInfoModal.jsx';
-
+import React, { useState, useEffect } from "react";
+import Rekt from "./Rekt/Rekt.jsx";
+import Hobbyr from "./Hobbyr/Hobbyr.jsx";
+import Dinaj from "./Dinaj/Dinaj.jsx";
+import "./ProjectsModal.css";
+import ProjectInfoModal from "./ProjectInfoModal.jsx";
 
 function ProjectsModal() {
-    const [isModalOpen, setIsModalOpen] = useState(false);
-    const [selectedProject, setSelectedProject] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedProject, setSelectedProject] = useState(null);
+  const [modalContentMounted, setModalContentMounted] = useState(false);
 
-    const handleOpenModal = () => {
-        setIsModalOpen(true);
-    };
+  useEffect(() => {
+    setModalContentMounted(true);
+  }, []);
 
-    const handleCloseModal = () => {
-        setIsModalOpen(false);
-        setSelectedProject(null); // Reset selected project when modal is closed
-    };
+  const handleOpenModal = () => {
+    setIsModalOpen(true);
+  };
 
-    const handleButtonClick = (projectComponent) => {
-        console.log("Selected project:", projectComponent);
-        setSelectedProject(projectComponent);
-    };
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setSelectedProject(null);
+  };
 
-    return (
-        <div className='projects-wrapper'>
-            <div className='projects-open-modal' onClick={handleOpenModal}>
-                Projects
+  const handleOverlayClick = () => {
+    if (isModalOpen) {
+      handleCloseModal();
+    }
+  };
+
+  const handleButtonClick = (projectComponent) => {
+    setSelectedProject(projectComponent);
+  };
+
+  return (
+    <div className="projects-wrapper">
+      <div className="projects-open-modal" onClick={handleOpenModal}>
+        Projects
+      </div>
+      {isModalOpen && modalContentMounted && (
+        <>
+          <div className="projects-overlay" onClick={handleOverlayClick}></div>
+          <div className="projects-modal">
+            <div className="projects-modal-content animate-in">
+              <div className="rekt-logo-container">
+                <img
+                  className="open-rekt"
+                  onClick={() => handleButtonClick(Rekt)}
+                  src="https://github.com/jbourke16/team-rekt-frontend/blob/dev/public/logos/SQUARE-LOGO.png?raw=true"
+                  alt="Rekt Logo"
+                />
+              </div>
+
+              <div className="hobbyr-logo-container">
+                <img
+                  className="open-hobbyr"
+                  onClick={() => handleButtonClick(Hobbyr)}
+                  src="https://github.com/erichowington/hobbyr/blob/dev/public/images/hobbyr-logos/hobbyr-logo-orange.png?raw=true"
+                />
+              </div>
+
+              <div className="dinaj-logo-container">
+                <img
+                  className="open-dinaj"
+                  onClick={() => handleButtonClick(Dinaj)}
+                  src="https://github.com/erichowington/DoINeedAJacket/blob/main/public/images/Header_TRNSPRNT.png?raw=true"
+                />
+              </div>
             </div>
-            <ProjectInfoModal
-                isOpen={isModalOpen}
-                onClose={handleCloseModal}
-                projectComponent={selectedProject}
-            />
-            {isModalOpen && (
-                <div className='projects-modal'>
-                    <div className='projects-modal-content'>
-                        <button onClick={() => handleButtonClick(Rekt)}>Rekt</button>
-                        <button onClick={() => handleButtonClick(Hobbyr)}>Hobbyr</button>
-                        <button onClick={() => handleButtonClick(Dinaj)}>Dinaj</button>
-                    </div>
-                </div>
-            )}
-        </div>
-    );
+          </div>
+        </>
+      )}
+      <ProjectInfoModal
+        isOpen={!!selectedProject}
+        onClose={handleCloseModal}
+        projectComponent={selectedProject}
+      />
+    </div>
+  );
 }
 
-export default ProjectsModal;
-
-
-
+export default ProjectsModal

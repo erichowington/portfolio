@@ -1,51 +1,60 @@
-/* body.active-modal {
-    overflow-y: hidden;
+
+
+.hobbyr-wrapper{
+    max-width: 100%;
+}
+.hobbyr-modal-content{
+    display:flex;
+    flex-direction: column;
 }
 
-.hobbyr-modal, .overlay {
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: fixed;
-}
-
-.overlay {
-    background: rgba(49,49,49,0.8);
-}
-.hobbyr-modal-content {
-    position: center;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    line-height: 1.4;
-    background: #f1f1f1;
-    padding: 14px 28px;
-    border-radius: 3px;
-    max-width: 600px;
-    min-width: 300px;
-}
-
-.close-hobbyr-modal {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    padding: 5px 7px;
-} */
-
-.hobbyr-logo-container{
-    width:20vw;
+.hobbyr-info-logo-container{
+    width:fit-content;
     height:auto;
+    background-color: blue;
+    padding:1vh;
+
+
+}
+
+.hobbyr-info-logo{
+    height:6vh;
+    width:auto;
+}
+
+.hobbyr-info{
+    font-family: 'IBM Plex Sans';
+    color:black;
+    font-weight: 500;
+    font-size:2vh;
+    width:35vw;
     padding:2vh;
+}
+.tech-stack-container{
+    width:fit-content;
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
+    padding:2vh 0 0 2vh;
 }
-.open-hobbyr{
-    width:100%;
-    filter: invert(8%) sepia(98%) saturate(7139%) hue-rotate(247deg) brightness(98%) contrast(145%);
+.react-logo{
+    height:3vh;
+    width:auto;
+    padding: 0 .5vw;
 }
-.open-hobbyr:hover{
-    filter:none;
+.js-logo{
+    height:3vh;
+    width:auto;
+    padding: 0 .5vw;
+}
+.django-logo{
+    height:3vh;
+    width:auto;
+    padding:0 .5vw;
+}
+.python-logo{
+    height:3vh;
+    width:auto;
+    padding:0 .5vw;
 }

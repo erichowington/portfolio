@@ -24,7 +24,7 @@ function ContactModal() {
             </div>
             {modal && (
                 <div className='contact-modal'>
-                    <div onClick={toggleModal} className='overlay'></div>
+                    <div onClick={toggleModal} className='contact-overlay'></div>
                     <div className='contact-modal-content'>
                       <p>Linkedin</p>
                       <p>github</p>
