@@ -28,7 +28,7 @@ function App() {
         <div className='header-title'>Developer and Designer</div>
       </div>
       <div className='section-container'>
-        <ProjectsModal/>
+        <ProjectsModal toggleModal={toggleModal}/>
         <AboutModal />
         <ContactModal/>
       </div>

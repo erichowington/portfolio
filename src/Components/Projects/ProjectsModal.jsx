@@ -28,11 +28,11 @@ function ProjectsModal() {
             </div>
             {projectModal && (
                 <div className='projects-modal'>
-                    <div onClick={toggleProjectModal} className='overlay'></div>
+                    <div onClick={toggleProjectModal} className='project-overlay'></div>
                     <div className='projects-modal-content'>
-                        <Dinaj />
-                        <Hobbyr />
-                        <Rekt />
+                        <Dinaj toggleProjectModal={projectModal} />
+                        <Hobbyr onClick={toggleProjectModal}/>
+                        <Rekt onClick={toggleProjectModal} />
                     </div>
                 </div>
             )}

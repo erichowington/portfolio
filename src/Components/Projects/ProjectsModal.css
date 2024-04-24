@@ -2,18 +2,18 @@ body.active-modal {
     overflow-y: hidden;
 }
 
-.projects-modal, .overlay {
+.projects-modal, .project-overlay {
     width: 100vw;
     height: 100vh;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    position: center;
+    position: absolute;
 }
 
-.overlay {
-    background: rgba(49,49,49,0.8);
+.project-overlay {
+    background: rgba(255, 254, 254, 0.5);
 }
 .projects-modal-content {
     position: absolute;
@@ -21,13 +21,15 @@ body.active-modal {
     left: 50%;
     transform: translate(-50%, -50%);
     line-height: 1.4;
-    background: #fdfff6;
     padding: 7vw;
     width:fit-content;
     display:flex;
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
+    z-index: 10;
+    margin:20vh 0 0 5vh;
+    transition:0.5s;
 }
 
 .close-projects-modal {

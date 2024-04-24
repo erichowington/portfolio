@@ -3,7 +3,7 @@ body.active-modal {
 }
 
 
-.about-modal, .overlay {
+/* .about-modal, .overlay {
     width: 100vw;
     height: 100vh;
     top: 0;
@@ -15,7 +15,7 @@ body.active-modal {
 
 .overlay {
     background: rgba(49,49,49,0.8);
-}
+} */
 .about-modal-content {
     position: absolute;
     top: 40%;

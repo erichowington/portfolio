@@ -8,7 +8,9 @@ function Rekt({toggleModal}) {
   const toggleRekt = (e) => {
     e.stopPropagation(); // Prevent event propagation
     setRektModal(!rektModal);
+    
   };
+  
 
   useEffect(() => {
     if (rektModal) {
