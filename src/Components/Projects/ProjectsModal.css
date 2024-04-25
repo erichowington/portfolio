@@ -78,6 +78,10 @@ body.active-modal {
     display: flex;
     justify-content: center;
 } 
+.rekt-logo-container:hover{
+    width:13vw;
+    transition:all 0.7s ease-in-out;
+}
 .open-rekt{
     width:50%;
     filter: invert(8%) sepia(98%) saturate(7139%) hue-rotate(247deg) brightness(98%) contrast(145%);
@@ -95,6 +99,10 @@ body.active-modal {
     display: flex;
     justify-content: center;
 }
+.hobbyr-logo-container:hover{
+    width:17vw;
+    transition:all 0.7s ease-in-out;
+}
 .open-hobbyr{
     width:100%;
     filter: invert(8%) sepia(98%) saturate(7139%) hue-rotate(247deg) brightness(98%) contrast(145%);
@@ -111,6 +119,10 @@ body.active-modal {
     padding:2vh;
     display: flex;
     justify-content: center;
+}
+.dinaj-logo-container:hover{
+    width:17vw;
+    transition:all 0.7s ease-in-out;
 }
 
 .open-dinaj{

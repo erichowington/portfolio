@@ -36,5 +36,203 @@
     font-size:1.7vh;
     font-weight:500;
     text-align: justify;
-    padding:1vw;
+    padding:2vw;
+}
+.app-view{
+    font-family:"IBM Plex Sans";
+    font-weight:700;
+    font-size:2vh;
+    color:white;
+    background-color: blue;
+    width:fit-content;
+    padding:1vh;
+}
+.dinaj-ui-container{
+    display:flex;
+    flex-direction:row;
+    width:45vw;
+    overflow-x:scroll;
+}
+.landing-wrapper{
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+.dinaj-landing{
+    height:50vh;
+    width:auto;
+    z-index:100;
+}
+.dinaj-ui-container-2{
+    display:flex;
+    flex-direction:row;
+    width:45vw;
+    overflow-x:scroll;
+    padding:0 0 2vw 0;
+}
+
+.dinaj-answer{
+    height:45vh;
+    width:auto;
+    padding:1vh;
+
+}
+.dinaj-answer:hover{
+    height:50vw;
+    transition: height 1s ease-in-out;
+    z-index: 5000;
+    
+
+}
+.dinaj-report{
+    height:45vh;
+    width:auto;
+    padding:1vh;
+
+}
+.dinaj-report:hover{
+    height:50vw;
+    transition: height 1s ease-in-out;
+    
+
+}
+.dinaj-example{
+    height:45vh;
+    width:auto;
+    padding:1vh;
+
+}
+.dinaj-example:hover{
+    height:50vw;
+    transition: height 1s ease-in-out;
+    
+
+}
+.desktop-view{
+    font-family:"IBM Plex Sans";
+    font-weight:700;
+    font-size:2vh;
+    color:white;
+    background-color: blue;
+    width:fit-content;
+    padding:1vh;
+
+}
+.desktop-dinaj-container{
+    display:flex;
+    flex-direction:row;
+    width:45vw;
+    overflow-x:scroll;
+    padding:2vw 0 0 0;
+
+}
+.dinaj-desktop-landing{
+    height:35vw;
+    width:auto;
+}
+.desktop-recs{
+    height:35vw;
+    width:auto;
+
+}
+.ui-info-dinaj{
+    list-style: none;
+    font-family:"IBM Plex Sans"
+}
+.dinaj-ui-info-1{
+    font-size:1.7vh;
+    font-weight:600;
+}
+.reason-1{
+    font-size:1.5vh;
+    font-weight:700;
+    padding:.5vh;
+    margin:1vh;
+    color:white;
+    background-color: blue;
+    width:fit-content;
+}
+.reason-2{
+    font-size:1.5vh;
+    font-weight:700;
+    padding:.5vh;
+    margin:1vh;
+    color:white;
+    background-color: blue;
+    width:fit-content;
+
+}
+.reason-3{
+    font-size:1.5vh;
+    font-weight:700;
+    padding:.5vh;
+    margin:1vh;
+    color:white;
+    background-color: blue;
+    width:fit-content;
+
+}
+.dinaj-ui-closing{
+    font-size:1.5vh;
+    font-weight:500;
+    width:35vw;
+    text-align: justify;
+
+}
+.design-statement{
+    font-size:1.5vh;
+    font-weight:500;
+    width:35vw;
+    text-align: justify;
+    padding:2vh;
+
+}
+.jacket-container{
+    display:flex;
+    flex-direction:row;
+    width:45vw;
+    overflow-x:scroll;
+    padding:2vw 0 2vh 0;
+    z-index: 2000;
+
+}
+.jacket-dinaj{
+    height:20vw;
+    width:auto;
+    padding:1vh;
+
+}
+.jacket-dinaj:hover{
+    height:25vw;
+    width:auto;
+    
+    background-color: blue;
+    transition: all 0.8s ease-in-out;
+}
+.dinaj-links{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.dinaj-github{
+    width:5vw;
+    height:auto;
+    filter: invert(8%) sepia(98%) saturate(7139%) hue-rotate(247deg) brightness(98%) contrast(145%);
+}
+.dinaj-github:hover{
+    width:6vw;
+    height:auto;
+    transition: width 0.5s ease-in-out;
+}
+.dinaj-website{
+    width:5vw;
+    height:auto;
+    filter: invert(8%) sepia(98%) saturate(7139%) hue-rotate(247deg) brightness(98%) contrast(145%);
+}
+.dinaj-website:hover{
+    width:6vw;
+    height:auto;
+    transition: width 0.5s ease-in-out;
 }
