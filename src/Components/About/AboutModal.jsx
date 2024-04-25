@@ -1,39 +1,45 @@
-import React from 'react'
-import { useState, useEffect } from 'react';
-import './AboutModal.css'
+import React from "react";
+import { useState, useEffect } from "react";
+import "./AboutModal.css";
 
 function AboutModal() {
   const [modal, setModal] = useState(false);
 
   const toggleModal = () => {
-      setModal(!modal);
+    setModal(!modal);
   };
 
   useEffect(() => {
-      if (modal) {
-          document.body.classList.add('active-modal');
-      } else {
-          document.body.classList.remove('active-modal');
-      }
+    if (modal) {
+      document.body.classList.add("active-modal");
+    } else {
+      document.body.classList.remove("active-modal");
+    }
   }, [modal]);
 
   return (
-      <div className='about-wrapper'>
-          <div className='open-about-modal' onClick={toggleModal}>
-              About
-          </div>
-          {modal && (
-              <div className='about-modal'>
-                  <div onClick={toggleModal} className='about-overlay'></div>
-                  <div className='about-modal-content'>
-                    <p>Brand Statement</p>
-                    <p>Work Examples</p>
-                      
-                  </div>
-              </div>
-          )}
+    <div className="about-wrapper">
+      <div className="open-about-modal" onClick={toggleModal}>
+        About
       </div>
+      {modal && (
+        <div className="about-modal">
+          <div onClick={toggleModal} className="about-overlay"></div>
+          <div className="about-modal-content">
+            <div class="image-container">
+                <img
+                className="skill-icon-react"
+                src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/react-js-icon.png"
+                />
+              <div class="image-overlay">
+                <p>REACT</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
   );
 }
 
-export default AboutModal
+export default AboutModal;

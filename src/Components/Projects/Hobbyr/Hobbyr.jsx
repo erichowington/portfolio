@@ -74,7 +74,7 @@ function Hobbyr() {
             <p className="ui-info-statment">Implementing these principles simplified the workload on the frontend, 
             ensured a seamless and easy user journey, 
             and empowered my teammates to work on their respective duties with clear and concise information.</p>
-            <p className="ui-info-closing">I crafted the logo using Adobe Illustrator and drew inspiration from Brutalist Web Design to inform the UX</p>
+            <p className="ui-info-closing">I crafted the logo using Adobe Illustrator and drew inspiration from Brutalist Web Design to inform the UX.</p>
           </div>
 
 
