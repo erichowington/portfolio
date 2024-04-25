@@ -9,7 +9,7 @@ function Hobbyr() {
           <div className="hobbyr-info-logo-container">
             <img
               className="hobbyr-info-logo"
-              src="https://github.com/erichowington/hobbyr/blob/dev/public/images/hobbyr-logos/hobbyr-logo-white.png?raw=true"
+              src="https://github.com/erichowington/hobbyr/blob/dev/public/images/hobbyr-logos/hobbyr-logo-orange.png?raw=true"
             />
           </div>
         

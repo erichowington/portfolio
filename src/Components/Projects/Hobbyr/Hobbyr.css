@@ -11,7 +11,6 @@
 .hobbyr-info-logo-container{
     width:fit-content;
     height:auto;
-    background-color: blue;
     padding:1vh;
 
 
@@ -27,8 +26,8 @@
     color:black;
     font-weight: 500;
     font-size:2vh;
-    width:35vw;
-    padding:2vh;
+    width:40vw;
+    padding:2vh 0 2vh 3vw;;
 }
 .tech-stack-container{
     width:fit-content;

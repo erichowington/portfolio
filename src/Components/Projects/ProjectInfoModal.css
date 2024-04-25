@@ -22,10 +22,10 @@ body.active-modal {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    padding: 20px;
+    padding:1vw 1vw 1vw 3vw;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    width:70vw;
+    width:50vw;
     height:auto;
     display: flex;
 }
