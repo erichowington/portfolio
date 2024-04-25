@@ -23,11 +23,11 @@ body.active-modal {
     transform: translate(-50%, -50%);
     background-color: white;
     padding:1vw 1vw 1vw 3vw;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(167, 167, 167, 0.2);
     width:50vw;
-    height:auto;
+    height:50vw;
     display: flex;
+    overflow-y:auto;
 }
 
 .project-info-modal-content .project-info-close {

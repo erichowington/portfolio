@@ -112,6 +112,15 @@ function ProjectsModal() {
     setSelectedProject(projectComponent);
   };
 
+
+  useEffect(() => {
+    if (selectedProject) {
+        document.body.classList.add('active-modal');
+    } else {
+        document.body.classList.remove('active-modal');
+    }
+}, [selectedProject]);
+
   return (
     <div className="projects-wrapper">
       <div className="projects-open-modal" onClick={handleOpenModal}>
