@@ -70,3 +70,196 @@
     padding:2vh;
     text-align:justify;
 }
+
+.rekt-landing{
+    width:30vw;
+    height:auto
+}
+.rekt-landing:hover{
+    width:40vw;
+    height:auto;
+    transition: all 1s ease;
+}
+
+.rekt-ui-container{
+    display:flex;
+    flex-direction:row;
+    width:45vw;
+    height:fit-content;
+    overflow-x:scroll;
+    padding:2vw 0 0 0;
+
+}
+.REKT-browse{
+    width:40vw;
+    height:auto;
+
+}
+.REKT-browse:hover{
+    width:50vw;
+    height:auto;
+    transition: all 1.3s ease;
+}
+.rekt-details{
+    width:40vw;
+    height:auto;
+
+}
+.rekt-details:hover{
+    width:50vw;
+    height:auto;
+    transition: all 1.3s ease;
+
+}
+.rekt-reviews{
+    width:40vw;
+    height:auto;
+
+}
+.rekt-reviews:hover{
+    width:50vw;
+    height:auto;
+    transition: all 1.3s ease;
+
+}
+.add-review{
+    width:40vw;
+    height:auto;
+}
+.add-review:hover{
+    width:50vw;
+    height:auto;
+    transition: all 1.3s ease;
+
+}
+.my-review{
+    width:40vw;
+    height:auto;
+
+}
+.my-review:hover{
+    width:50vw;
+    height:auto;
+    transition: all 1.3s ease;
+
+}
+.my-favs{
+    width:40vw;
+    height:auto;
+
+}
+.my-favs:hover{
+    width:50vw;
+    height:auto;
+    transition: all 1.3s ease;
+
+}
+.rekt-info-body{
+    font-family: 'IBM Plex Sans';
+    color:black;
+    font-weight: 550;
+    font-size:1.35vh;
+    width:43vw;
+    padding:2vh;
+    text-align:justify;
+}
+.rekt-goals{
+    font-family: 'IBM Plex Sans';
+    color:black;
+    font-weight: 600;
+    font-size:1.5vh;
+
+}
+
+.goal-1{
+    font-size:1.5vh;
+    font-weight:700;
+    padding:.5vh;
+    margin:1vh;
+    color:white;
+    background-color: blue;
+    width:fit-content;
+    list-style: none;
+}
+.goal-2{
+    font-size:1.5vh;
+    font-weight:700;
+    padding:.5vh;
+    margin:1vh;
+    color:white;
+    background-color: blue;
+    width:fit-content;
+    list-style: none;
+}
+.goal-3{
+    font-size:1.5vh;
+    font-weight:700;
+    padding:.5vh;
+    margin:1vh;
+    color:white;
+    background-color: blue;
+    width:fit-content;
+    list-style: none;
+}
+.goal-4{
+    font-size:1.5vh;
+    font-weight:700;
+    padding:.5vh;
+    margin:1vh;
+    color:white;
+    background-color: blue;
+    width:fit-content;
+    list-style: none;
+}
+.rekt-info-body-2{
+    font-family: 'IBM Plex Sans';
+    color:black;
+    font-weight: 500;
+    font-size:1.35vh;
+    width:30vw;
+    padding:2vh 0 0 5vw;;
+    text-align:justify;
+}
+.rekt-icons-container{
+    display:flex;
+    flex-direction: row;
+    width:45vw;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+.heart-icon{
+    width:3vw;
+    height:auto;
+    padding:1vh;
+}
+.plus-icon{
+    width:3vw;
+    height:auto;
+    padding:1vh;
+}
+.star-icon{
+    width:3vw;
+    height:auto;
+    padding:1vh;
+}
+.ux-header{
+    font-size:3vh;
+    font-weight:700;
+    padding:1vh;
+    margin:2vh;
+    color:white;
+    background-color: blue;
+    width:fit-content;
+    list-style: none;
+
+}
+.rekt-ui-info{
+font-family: 'IBM Plex Sans';
+    color:black;
+    font-weight: 500;
+    font-size:1.35vh;
+    width:45vw;
+    text-align:justify;
+}
