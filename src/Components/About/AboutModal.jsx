@@ -26,6 +26,8 @@ function AboutModal() {
         <div className="about-modal">
           <div onClick={toggleModal} className="about-overlay"></div>
           <div className="about-modal-content">
+            <div className="about-title">ABOUT</div>
+            <div className="about-portrait-wrapper"></div>
             <div class="image-container">
                 <img
                 className="skill-icon-react"
