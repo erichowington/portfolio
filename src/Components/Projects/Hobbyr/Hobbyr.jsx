@@ -36,7 +36,7 @@ function Hobbyr() {
 
         <div className="hobbyr-info-container">
           <p className="hobbyr-info">
-            Hobbyr is a full stack web app with the focus of creating a digital
+            <strong>Hobbyr</strong> is a full stack web app with the focus of creating a digital
             space where creators can share their hobbies. In our current
             landscape of social media apps, the idea of posting content that
             fits ones brand can feel overwhelming. Wether you're an influencer,
