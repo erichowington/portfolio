@@ -21,6 +21,13 @@
     height:12vh;
     width:auto;
 }
+.contributions{
+    font-family: "IBM Plex Sans";
+    color:rgb(149, 149, 149);
+    font-size: 1.3vh;
+    padding:1vw 0 0 1.5vw;
+    width:fit-content;
+}
 
 .dinaj-tech-stack-container{
     width:10vw;

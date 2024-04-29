@@ -22,6 +22,8 @@ function Dinaj() {
             src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/javascript-programming-language-icon.png"
           />
         </div>
+        <p className="contributions"><strong>Contributions:</strong> Full production.</p>
+
 
         <div className="dinaj-info-container">
           <p className="dinaj-info">

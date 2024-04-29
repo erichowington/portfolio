@@ -1,265 +1,387 @@
-.rekt-wrapper{
-    max-width: 100%;
+.rekt-wrapper {
+  max-width: 100%;
 }
-.rekt-modal-content{
-    display:flex;
-    flex-direction: column;
+.rekt-modal-content {
+  display: flex;
+  flex-direction: column;
 }
-.rekt-header-container{
+.rekt-header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: auto;
+}
+
+.rekt-info-logo-container {
+  width: fit-content;
+  height: auto;
+  padding: 1vh 0 0 0;
+}
+
+.rekt-info-logo {
+  height: auto;
+  width: 12vw;
+  padding:.75vw;
+}
+
+.rekt-tech-stack-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 2vh 0 0;
+}
+
+.rekt-react-logo {
+  height: 3vh;
+  width: auto;
+  padding: 0 0.5vw;
+}
+.rekt-mongo-logo {
+  height: 3vh;
+  width: auto;
+  padding: 0 0.5vw;
+}
+.rekt-express-logo {
+  height: 3vh;
+  width: auto;
+  padding: 0 0.5vw;
+}
+.rekt-node-logo {
+  height: 3vh;
+  width: auto;
+  padding: 0 0.5vw;
+}
+
+.contributions{
+    font-family: "IBM Plex Sans";
+    color:rgb(149, 149, 149);
+    font-size: 1.3vh;
+    padding:1vw 0 0 1.5vw;
+    width:fit-content;
+}
+
+.rekt-info-container {
+  font-family: "IBM Plex Sans";
+  color: black;
+  font-weight: 500;
+  font-size: 2vh;
+  width: 40vw;
+  padding: 1vh 2vh 2vh 2vh;
+  text-align: justify;
+}
+
+.rekt-landing {
+  width: 30vw;
+  height: auto;
+}
+.rekt-landing:hover {
+  width: 40vw;
+  height: auto;
+  transition: all 1s ease;
+}
+
+.rekt-ui-container {
+  display: flex;
+  flex-direction: row;
+  width: 45vw;
+  height: fit-content;
+  overflow-x: scroll;
+  padding: 2vw 0 0 0;
+}
+.REKT-browse {
+  width: 40vw;
+  height: auto;
+}
+.REKT-browse:hover {
+  width: 50vw;
+  height: auto;
+  transition: all 1.3s ease;
+}
+.rekt-details {
+  width: 40vw;
+  height: auto;
+}
+.rekt-details:hover {
+  width: 50vw;
+  height: auto;
+  transition: all 1.3s ease;
+}
+.rekt-reviews {
+  width: 40vw;
+  height: auto;
+}
+.rekt-reviews:hover {
+  width: 50vw;
+  height: auto;
+  transition: all 1.3s ease;
+}
+.add-review {
+  width: 40vw;
+  height: auto;
+}
+.add-review:hover {
+  width: 50vw;
+  height: auto;
+  transition: all 1.3s ease;
+}
+.my-review {
+  width: 40vw;
+  height: auto;
+}
+.my-review:hover {
+  width: 50vw;
+  height: auto;
+  transition: all 1.3s ease;
+}
+.my-favs {
+  width: 40vw;
+  height: auto;
+}
+.my-favs:hover {
+  width: 50vw;
+  height: auto;
+  transition: all 1.3s ease;
+}
+.rekt-info-body {
+  font-family: "IBM Plex Sans";
+  color: black;
+  font-weight: 550;
+  font-size: 1.35vh;
+  width: 43vw;
+  padding: 2vh;
+  text-align: justify;
+}
+.rekt-goals {
+  font-family: "IBM Plex Sans";
+  color: black;
+  font-weight: 600;
+  font-size: 1.5vh;
+}
+
+.goal-1 {
+  font-size: 1.5vh;
+  font-weight: 700;
+  padding: 0.5vh;
+  margin: 1vh;
+  color: white;
+  background-color: blue;
+  width: fit-content;
+  list-style: none;
+}
+.goal-2 {
+  font-size: 1.5vh;
+  font-weight: 700;
+  padding: 0.5vh;
+  margin: 1vh;
+  color: white;
+  background-color: blue;
+  width: fit-content;
+  list-style: none;
+}
+.goal-3 {
+  font-size: 1.5vh;
+  font-weight: 700;
+  padding: 0.5vh;
+  margin: 1vh;
+  color: white;
+  background-color: blue;
+  width: fit-content;
+  list-style: none;
+}
+.goal-4 {
+  font-size: 1.5vh;
+  font-weight: 700;
+  padding: 0.5vh;
+  margin: 1vh;
+  color: white;
+  background-color: blue;
+  width: fit-content;
+  list-style: none;
+}
+.rekt-info-body-2 {
+  font-family: "IBM Plex Sans";
+  color: black;
+  font-weight: 500;
+  font-size: 1.35vh;
+  width: 30vw;
+  padding: 2vh 0 0 5vw;
+  text-align: justify;
+}
+.icons-header {
+  font-family: "IBM Plex Sans";
+  font-size: 2vh;
+  font-weight: 700;
+  padding: 1vh;
+  margin: 2vh;
+  color: blue;
+  width: fit-content;
+  list-style: none;
+}
+.rekt-icons-wrapper {
+  width: 45vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rekt-icons-container {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 1vh;
+  margin: 1vh;
+}
+.heart-icon {
+  width: 3vw;
+  height: auto;
+  padding: 1.5vh;
+}
+.plus-icon {
+  width: 3vw;
+  height: auto;
+  padding: 1.5vh;
+}
+.star-icon {
+  width: 3vw;
+  height: auto;
+  padding: 1.5vh;
+}
+.ux-header {
+  font-size: 3vh;
+  font-weight: 700;
+  padding: 1vh;
+  margin: 2vh;
+  color: white;
+  background-color: blue;
+  width: fit-content;
+}
+.rekt-ui-info {
+  font-family: "IBM Plex Sans";
+  color: black;
+  font-weight: 500;
+  font-size: 1.35vh;
+  width: 45vw;
+  text-align: justify;
+}
+.logos-header {
+  font-family: "IBM Plex Sans";
+  font-size: 2vh;
+  font-weight: 700;
+  padding: 1vh;
+  margin: 2vh;
+  color: blue;
+  width: fit-content;
+}
+
+.rekt-logos-wrapper {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rekt-logos-container {
+  display: flex;
+  flex-direction: row;
+  width: 45vw;
+  height: fit-content;
+  overflow-x: scroll;
+  padding: 2vw 0 0 0;
+  align-items: center;
+}
+.rekt-thumbnail-logo {
+  height: 10vw;
+  width: auto;
+  padding: 1vh 2vw 1vh 2vw;
+}
+.rekt-logo-black {
+  height: 10vw;
+  width: auto;
+  padding: 1vh 2vw 1vh 2vw;
+}
+.rekt-logo-neon-purp {
+  height: 14vw;
+  width: auto;
+  padding: 1vw;
+}
+.rekt-logo-neon-pink {
+  height: 14vw;
+  width: auto;
+  padding: 1vw;
+}
+.illustrations-header {
+  font-family: "IBM Plex Sans";
+  font-size: 2vh;
+  font-weight: 700;
+  padding: 1vh;
+  margin: 2vh;
+  color: blue;
+  width: fit-content;
+  list-style: none;
+}
+.illustrations-wrapper {
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:20vw;
-    height:auto;
 }
-
-.rekt-info-logo-container{
-    width:fit-content;
-    height:auto;
-    padding:1vh 0 0 0;
-
-
-}
-
-.rekt-info-logo{
-    height:auto;
-    width:20vw;
-}
-
-.rekt-tech-stack-container{
-    width:100%;
+.illustrations-container{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    margin:0 2vh 0 0;
-}
+    width: 45vw;
+    height: fit-content;
+    overflow-x: scroll;
+    padding: 2vw 0 0 0;
+    align-items: center;
 
-.rekt-react-logo{
-    height:3vh;
+}
+.rekt-monster-1{
+    height:16vh;
     width:auto;
-    padding:0 .5vw
+    padding:1.5vw;
 }
-.rekt-mongo-logo{
-    height:3vh;
+.rekt-monster-2{
+    height:16vh;
     width:auto;
-    padding:0 .5vw;
-
+    padding:1.5vw;
 }
-.rekt-express-logo{
-    height:3vh;
+.rekt-monster-3{
+    height:16vh;
     width:auto;
-    padding:0 .5vw;
-   
-
-}
-.rekt-node-logo{
-    height:3vh;
-    width:auto;
-    padding:0 .5vw;
-
-
+    padding:1.5vw;
 }
 
-.rekt-info-container{
-    font-family: 'IBM Plex Sans';
-    color:black;
-    font-weight: 500;
-    font-size:1.5vh;
-    width:40vw;
-    padding:2vh;
-    text-align:justify;
-}
-
-.rekt-landing{
-    width:30vw;
-    height:auto
-}
-.rekt-landing:hover{
-    width:40vw;
-    height:auto;
-    transition: all 1s ease;
-}
-
-.rekt-ui-container{
-    display:flex;
-    flex-direction:row;
-    width:45vw;
-    height:fit-content;
-    overflow-x:scroll;
-    padding:2vw 0 0 0;
-
-}
-.REKT-browse{
-    width:40vw;
-    height:auto;
-
-}
-.REKT-browse:hover{
-    width:50vw;
-    height:auto;
-    transition: all 1.3s ease;
-}
-.rekt-details{
-    width:40vw;
-    height:auto;
-
-}
-.rekt-details:hover{
-    width:50vw;
-    height:auto;
-    transition: all 1.3s ease;
-
-}
-.rekt-reviews{
-    width:40vw;
-    height:auto;
-
-}
-.rekt-reviews:hover{
-    width:50vw;
-    height:auto;
-    transition: all 1.3s ease;
-
-}
-.add-review{
-    width:40vw;
-    height:auto;
-}
-.add-review:hover{
-    width:50vw;
-    height:auto;
-    transition: all 1.3s ease;
-
-}
-.my-review{
-    width:40vw;
-    height:auto;
-
-}
-.my-review:hover{
-    width:50vw;
-    height:auto;
-    transition: all 1.3s ease;
-
-}
-.my-favs{
-    width:40vw;
-    height:auto;
-
-}
-.my-favs:hover{
-    width:50vw;
-    height:auto;
-    transition: all 1.3s ease;
-
-}
-.rekt-info-body{
-    font-family: 'IBM Plex Sans';
-    color:black;
-    font-weight: 550;
-    font-size:1.35vh;
-    width:43vw;
-    padding:2vh;
-    text-align:justify;
-}
-.rekt-goals{
-    font-family: 'IBM Plex Sans';
-    color:black;
-    font-weight: 600;
-    font-size:1.5vh;
-
-}
-
-.goal-1{
-    font-size:1.5vh;
-    font-weight:700;
-    padding:.5vh;
-    margin:1vh;
-    color:white;
-    background-color: blue;
-    width:fit-content;
-    list-style: none;
-}
-.goal-2{
-    font-size:1.5vh;
-    font-weight:700;
-    padding:.5vh;
-    margin:1vh;
-    color:white;
-    background-color: blue;
-    width:fit-content;
-    list-style: none;
-}
-.goal-3{
-    font-size:1.5vh;
-    font-weight:700;
-    padding:.5vh;
-    margin:1vh;
-    color:white;
-    background-color: blue;
-    width:fit-content;
-    list-style: none;
-}
-.goal-4{
-    font-size:1.5vh;
-    font-weight:700;
-    padding:.5vh;
-    margin:1vh;
-    color:white;
-    background-color: blue;
-    width:fit-content;
-    list-style: none;
-}
-.rekt-info-body-2{
-    font-family: 'IBM Plex Sans';
-    color:black;
-    font-weight: 500;
-    font-size:1.35vh;
-    width:30vw;
-    padding:2vh 0 0 5vw;;
-    text-align:justify;
-}
-.rekt-icons-container{
+.rekt-links{
     display:flex;
     flex-direction: row;
-    width:45vw;
     justify-content: center;
     align-items: center;
-    align-content: center;
+}
 
-}
-.heart-icon{
-    width:3vw;
+.rekt-github{
+    width:5vw;
     height:auto;
-    padding:1vh;
+    filter: invert(8%) sepia(98%) saturate(7139%) hue-rotate(247deg) brightness(98%) contrast(145%);
 }
-.plus-icon{
-    width:3vw;
+.rekt-github:hover{
+    width:6vw;
     height:auto;
-    padding:1vh;
+    transition: width 0.5s ease-in-out;
 }
-.star-icon{
-    width:3vw;
+.rekt-website{
+    width:5vw;
     height:auto;
-    padding:1vh;
+    filter: invert(8%) sepia(98%) saturate(7139%) hue-rotate(247deg) brightness(98%) contrast(145%);
 }
-.ux-header{
-    font-size:3vh;
-    font-weight:700;
-    padding:1vh;
-    margin:2vh;
-    color:white;
-    background-color: blue;
-    width:fit-content;
-    list-style: none;
-
-}
-.rekt-ui-info{
-font-family: 'IBM Plex Sans';
-    color:black;
-    font-weight: 500;
-    font-size:1.35vh;
-    width:45vw;
-    text-align:justify;
+.rekt-website:hover{
+    width:6vw;
+    height:auto;
+    transition: width 0.5s ease-in-out;
 }

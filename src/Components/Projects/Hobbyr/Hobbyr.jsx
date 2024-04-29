@@ -33,6 +33,8 @@ function Hobbyr() {
             src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/python-programming-language-icon.png"
           />
         </div>
+        <p className="contributions"><strong>Contributions:</strong> Project Manager, Front End, Back End, UX, UI</p>
+
 
         <div className="hobbyr-info-container">
           <p className="hobbyr-info">

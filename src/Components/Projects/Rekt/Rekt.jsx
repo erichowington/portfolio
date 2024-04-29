@@ -9,7 +9,7 @@ function Rekt() {
           <div className="rekt-info-logo-container">
             <img
               className="rekt-info-logo"
-              src="https://github.com/jbourke16/team-rekt-frontend/blob/dev/public/logos/LOGO-NEON-PURPLE.png?raw=true"
+              src="https://github.com/jbourke16/team-rekt-frontend/blob/dev/public/logos/LOGO-MOCK.png?raw=true"
             />
           </div>
 
@@ -36,6 +36,7 @@ function Rekt() {
             />
           </div>
         </div>
+        <p className="contributions"><strong>Contributions:</strong> Project Manager, Front End, Back End, UX, UI</p>
 
         <div className="rekt-info-container">
           <p className="rekt-info">
@@ -156,23 +157,95 @@ function Rekt() {
             user experience.
           </p>
         </div>
-        <div className="rekt-icons-container">
+        <p className="icons-header">ICONS</p>
+        <div className="rekt-icons-wrapper">
+          <div className="rekt-icons-container">
             <img
-            className="heart-icon"
-            src="https://github.com/jbourke16/team-rekt-frontend/blob/dev/public/Icons/HEART-ICON.png?raw=true"
-            alt="Heart icon"
+              className="heart-icon"
+              src="https://github.com/jbourke16/team-rekt-frontend/blob/dev/public/Icons/HEART-ICON.png?raw=true"
+              alt="Heart icon"
             />
             <img
-            className="plus-icon"
-            src="https://github.com/jbourke16/team-rekt-frontend/blob/dev/public/Icons/PLUS-ICON.png?raw=true"
-            alt="plus icon"
+              className="plus-icon"
+              src="https://github.com/jbourke16/team-rekt-frontend/blob/dev/public/Icons/PLUS-ICON.png?raw=true"
+              alt="plus icon"
             />
-            <img 
-            className="star-icon"
-            src="https://github.com/jbourke16/team-rekt-frontend/blob/dev/public/Icons/STAR-ICON.png?raw=true"
-            alt="star icon"
+            <img
+              className="star-icon"
+              src="https://github.com/jbourke16/team-rekt-frontend/blob/dev/public/Icons/STAR-ICON.png?raw=true"
+              alt="star icon"
+            />
+          </div>
+        </div>
+        <p className="logos-header">LOGOS</p>
+        <div className="rekt-logos-wrapper">
+          <div className="rekt-logos-container">
+            <img
+              className="rekt-thumbnail-logo"
+              src="https://github.com/jbourke16/team-rekt-frontend/blob/dev/public/logos/SQUARE-LOGO.png?raw=true"
+              alt="thumbnail logo rekt"
+            />
+            <img
+              className="rekt-logo-black"
+              src="https://github.com/jbourke16/team-rekt-frontend/blob/dev/public/logos/LOGO-MOCK.png?raw=true"
+              alt="solid rekt logo"
             />
 
+            <img
+              className="rekt-logo-neon-purp"
+              src="https://github.com/jbourke16/team-rekt-frontend/blob/dev/public/logos/LOGO-NEON-PURPLE.png?raw=true"
+              alt="neon purple rekt logo"
+            />
+            <img
+              className="rekt-logo-neon-pink"
+              src="https://github.com/jbourke16/team-rekt-frontend/blob/dev/public/logos/LOGO-NEON.png?raw=true"
+              alt="neon pink rekt logo"
+            />
+          </div>
+        </div>
+        <p className="illustrations-header">ILLUSTRATIONS</p>
+        <div className="illustrations-wrapper">
+          <div className="illustrations-container">
+            <img
+              className="rekt-monster-1"
+              src="https://github.com/jbourke16/team-rekt-frontend/blob/dev/public/Monsters/MONSTERS3.png?raw=true"
+              alt="Monster playing videogames"
+            />
+            <img
+              className="rekt-monster-2"
+              src="https://github.com/jbourke16/team-rekt-frontend/blob/dev/public/Monsters/MONSTERS2.png?raw=true"
+              alt="Monster on phone"
+            />
+            <img
+              className="rekt-monster-3"
+              src="https://github.com/jbourke16/team-rekt-frontend/blob/dev/public/Monsters/MONSTERS1.png?raw=true"
+              alt="Group of monsters playing videogames"
+            />
+
+          </div>
+        </div>
+        <div className="rekt-links">
+            <div className="git-hub-container">
+                <a
+                href="https://github.com/jbourke16/team-rekt-frontend/tree/dev"
+                target="_blank"
+                >
+                <img
+                    className="rekt-github"
+                    src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/github-icon.png"
+                />
+                </a>
+            </div>
+            <div className="website-container">
+                <a 
+                href="https://rekt-api.netlify.app/" 
+                target="_blank">
+                <img
+                    className="rekt-website"
+                    src="https://uxwing.com/wp-content/themes/uxwing/download/location-travel-map/world-globe-line-icon.png"
+                />
+                </a>
+            </div>
         </div>
       </div>
     </div>
