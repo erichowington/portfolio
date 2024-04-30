@@ -22,13 +22,17 @@ body.active-modal {
     background: rgba(255, 254, 254, 0.4);
     z-index: 5;
 }
+.contact-modal{
+    
+}
 .contact-modal-content {
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     line-height: 1.4;
-    background: #f1f1f1;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(167, 167, 167, 0.2);
     padding: 14px 28px;
     border-radius: 3px;
     max-width: 600px;
@@ -51,5 +55,90 @@ body.active-modal {
 .open-contact-modal:hover{
     color:white;
     background-color:blue;
+    cursor: pointer;
     transition:color 0.5s, background-color 0.5s; 
+}
+
+.contact-container{
+    width:45vw;
+}
+.contact-header{
+        font-family:"IBM Plex Sans";
+        font-weight:700;
+        font-size:5vh;
+        color:white;
+        background-color: blue;
+        width:fit-content;
+        height:auto;
+        padding:1vh;
+    
+
+}
+.email-container{
+    width:30vw;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin:3vh auto;
+    border:.25vh dotted blue;
+    padding:1vh;
+}
+
+.email-title{
+    font-weight:800;
+    font-size:3vh;
+    padding:1vh;
+    margin:5vh 0 0 0;
+    
+}
+.address{
+    font-weight:700;
+    font-size:2.5vh;
+    padding:2vh;
+    margin:0 0 1vh 0;
+    color:rgb(104, 104, 104)
+}
+.personal-github{
+    width:5vw;
+    padding:1vh;
+    height:auto;
+}
+.personal-github:hover{
+    width:6vw;
+    height:auto;
+    transition: width 0.5s ease-in-out;
+}
+.linkedin{
+    width:5vw;
+    padding:1vh;
+    height:auto;
+
+}
+.linkedin:hover{
+    width:6vw;
+    height:auto;
+    transition: width 0.5s ease-in-out;
+
+}
+.socials{
+    margin:0 auto;
+    display:flex;
+    flex-direction: column;
+
+}
+.socials-title{
+    font-family:"IBM Plex Sans";
+    font-weight:800;
+    font-size:3vh;
+    text-align: center;
+    color:blue;
+    width:fit-content;
+    padding:1vh;
+    align-self: center;
+}
+.socials-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
 }

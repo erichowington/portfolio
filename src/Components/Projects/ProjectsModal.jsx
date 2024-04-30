@@ -131,6 +131,20 @@ function ProjectsModal() {
           <div className="projects-overlay" onClick={handleOverlayClick}></div>
           <div className="projects-modal">
             <div className="projects-modal-content animate-in">
+            <div className="dinaj-logo-container">
+                <img
+                  className="open-dinaj"
+                  onClick={() => handleButtonClick(Dinaj)}
+                  src="https://github.com/erichowington/DoINeedAJacket/blob/main/public/images/Header_TRNSPRNT.png?raw=true"
+                />
+              </div>
+              <div className="hobbyr-logo-container">
+                <img
+                  className="open-hobbyr"
+                  onClick={() => handleButtonClick(Hobbyr)}
+                  src="https://github.com/erichowington/hobbyr/blob/dev/public/images/hobbyr-logos/hobbyr-logo-orange.png?raw=true"
+                />
+              </div>
               <div className="rekt-logo-container">
                 <img
                   className="open-rekt"
@@ -140,21 +154,9 @@ function ProjectsModal() {
                 />
               </div>
 
-              <div className="hobbyr-logo-container">
-                <img
-                  className="open-hobbyr"
-                  onClick={() => handleButtonClick(Hobbyr)}
-                  src="https://github.com/erichowington/hobbyr/blob/dev/public/images/hobbyr-logos/hobbyr-logo-orange.png?raw=true"
-                />
-              </div>
+              
 
-              <div className="dinaj-logo-container">
-                <img
-                  className="open-dinaj"
-                  onClick={() => handleButtonClick(Dinaj)}
-                  src="https://github.com/erichowington/DoINeedAJacket/blob/main/public/images/Header_TRNSPRNT.png?raw=true"
-                />
-              </div>
+              
             </div>
           </div>
         </>

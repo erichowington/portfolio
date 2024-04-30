@@ -66,6 +66,7 @@ body.active-modal {
 .projects-open-modal:hover{
     color:white;
     background-color:blue;
+    cursor: pointer;
     transition:color 0.5s, background-color 0.5s; 
 }
 
