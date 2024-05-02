@@ -66,39 +66,33 @@ body.active-modal {
         font-family:"IBM Plex Sans";
         font-weight:700;
         font-size:5vh;
-        color:white;
-        background-color: blue;
+        color:black;
         width:fit-content;
         height:auto;
         padding:1vh;
     
 
 }
+.email-head{
+    background-color: blue;
+    color:white;
+    font-weight: 700;
+    padding:1vh;
+    font-size: 3vh;
+}
 .email-container{
     width:30vw;
+    font-family: "IBM Plex Sans";
+    font-weight: 600;
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
     justify-content: center;
     align-items: center;
-    margin:3vh auto;
-    border:.25vh dotted blue;
+    margin:0 auto;
+    color:black;
     padding:1vh;
 }
 
-.email-title{
-    font-weight:800;
-    font-size:3vh;
-    padding:1vh;
-    margin:5vh 0 0 0;
-    
-}
-.address{
-    font-weight:700;
-    font-size:2.5vh;
-    padding:2vh;
-    margin:0 0 1vh 0;
-    color:rgb(104, 104, 104)
-}
 .personal-github{
     width:5vw;
     padding:1vh;
@@ -131,8 +125,8 @@ body.active-modal {
     font-family:"IBM Plex Sans";
     font-weight:800;
     font-size:3vh;
-    text-align: center;
-    color:blue;
+    color:white;
+    background-color: blue;
     width:fit-content;
     padding:1vh;
     align-self: center;

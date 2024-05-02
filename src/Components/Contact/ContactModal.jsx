@@ -29,8 +29,7 @@ function ContactModal() {
             <div className="contact-container">
               <div className="contact-header">CONTACT</div>
               <div className="email-container">
-                <p className="email-title">EMAIL</p>
-                <p className="address">ehowington94@gmail.com</p>
+                <p className="email-title"><strong className="email-head">EMAIL:</strong> ehowington94@gmail.com</p>
               </div>
 
               <div className="socials">
