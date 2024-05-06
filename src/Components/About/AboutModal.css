@@ -70,6 +70,21 @@ body.active-modal {
     height:auto;
     padding:1vh;
 }
+
+.close-about-modal{
+  font-family: "IBM Plex Sans";
+  border:none;
+  background-color: white;
+  color:rgb(183, 183, 183);
+  font-size: 3.5vh;
+  font-weight:400;
+}
+.close-about-modal:hover{
+  color:black;
+  font-weight: 800;
+  transition: all 1s ease;
+
+}
 .about-header-body{
     font-family:"IBM Plex Sans";
     color:Black;
@@ -220,6 +235,7 @@ body.active-modal {
   .dog-word{
     color:rgb(81, 81, 81);
     font-weight:800;
+    font-size: 2vh;
   }
 
   .dog-word:hover{
@@ -227,6 +243,7 @@ body.active-modal {
     font-weight:900;
     cursor: pointer;
   }
+ 
   .Luke{
     width:15vw;
     height:auto;
@@ -242,6 +259,7 @@ body.active-modal {
     color:rgb(81,81,81);
     cursor: pointer;
     font-weight:900;
+    font-size: 2vh;
   }
   .spotify-link:hover{
     color:blue;

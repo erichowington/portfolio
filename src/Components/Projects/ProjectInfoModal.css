@@ -39,6 +39,23 @@ body.active-modal {
 
 }
 
+.project-info-close{
+    font-family: "IBM Plex Sans";
+    border:none;
+    background-color: white;
+    color:rgb(183, 183, 183);
+    font-size: 3.5vh;
+    font-weight:400;
+    margin-right: 1vw;
+
+}
+.project-info-close:hover{
+    color:black;
+    font-weight: 800;
+    transition: all 1s ease;
+
+}
+
 
 
 

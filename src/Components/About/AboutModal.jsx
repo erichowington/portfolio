@@ -32,7 +32,10 @@ function AboutModal() {
         <div className="about-modal">
           <div onClick={toggleModal} className="about-overlay"></div>
           <div className="about-modal-content">
-            <p className="about-title">ABOUT</p>
+            <div className="about-title-container">
+              <p className="about-title">ABOUT</p>
+              <button onClick={toggleModal} className="close-about-modal">X</button>
+            </div>
             <div className="about-header-container">
               <p className="about-header-body">
                 I'm Eric. A developer, designer, and a problem solver.
@@ -214,7 +217,7 @@ function AboutModal() {
             </div>
             <div className="about-closing-container">
               {showDogImage && (
-                <img className="Luke" src={dogImage} alt="Dog" />
+                <img className="Luke" src={dogImage} alt="an image of my dog Luke who is an English Pointer/Lab mix" />
               )}
               <p className="about-closing-statment">
                 When I'm not at the computer-- I'm usually hanging with my{" "}

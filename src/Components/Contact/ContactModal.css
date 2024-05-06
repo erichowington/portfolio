@@ -22,9 +22,7 @@ body.active-modal {
     background: rgba(255, 254, 254, 0.4);
     z-index: 5;
 }
-.contact-modal{
-    
-}
+
 .contact-modal-content {
     position: absolute;
     top: 40%;
@@ -35,7 +33,7 @@ body.active-modal {
     box-shadow: 0 0 10px rgba(167, 167, 167, 0.2);
     padding: 14px 28px;
     border-radius: 3px;
-    max-width: 600px;
+    max-width: 45vw;
     min-width: 300px;
     z-index: 20;
 }
@@ -61,21 +59,43 @@ body.active-modal {
 
 .contact-container{
     width:45vw;
+    height:fit-content;
 }
+.contact-header-container{
+    display: flex;
+    flex-direction: row;
+    width:45vw;
+    height:fit-content;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .contact-header{
         font-family:"IBM Plex Sans";
         font-weight:700;
-        font-size:5vh;
-        color:black;
+        font-size:4vh;
+        color:white;
+        background-color: blue;
         width:fit-content;
         height:auto;
         padding:1vh;
-    
+}
+.close-contact-modal{
+    font-family: "IBM Plex Sans";
+    border:none;
+    background-color: white;
+    color:rgb(183, 183, 183);
+    font-size: 3.5vh;
+    font-weight:400;
+}
+.close-contact-modal:hover{
+    color:black;
+    font-weight: 800;
+    transition: all 1s ease;
 
 }
 .email-head{
-    background-color: blue;
-    color:white;
+    color:blue;
     font-weight: 700;
     padding:1vh;
     font-size: 3vh;
@@ -90,7 +110,7 @@ body.active-modal {
     align-items: center;
     margin:0 auto;
     color:black;
-    padding:1vh;
+    padding:6vw;
 }
 
 .personal-github{

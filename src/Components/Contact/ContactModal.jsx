@@ -27,13 +27,15 @@ function ContactModal() {
           <div onClick={toggleModal} className="contact-overlay"></div>
           <div className="contact-modal-content">
             <div className="contact-container">
-              <div className="contact-header">CONTACT</div>
+              <div className="contact-header-container">
+                <div className="contact-header">CONTACT</div>
+                <button onClick={toggleModal}className="close-contact-modal">X</button>
+              </div>
               <div className="email-container">
                 <p className="email-title"><strong className="email-head">EMAIL:</strong> ehowington94@gmail.com</p>
               </div>
 
               <div className="socials">
-              <p className="socials-title">SOCIALS</p>
               <div className="socials-container">
                 <a href="https://github.com/erichowington" target="_blank">
                   <img
