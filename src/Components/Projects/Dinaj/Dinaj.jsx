@@ -9,6 +9,7 @@ function Dinaj() {
           <img
             className="dinaj-info-logo"
             src="https://github.com/erichowington/DoINeedAJacket/blob/main/public/images/Header_TRNSPRNT.png?raw=true"
+            alt="illustration of a man sitting on a rock thinking to him self 'Do I Need a Jacket?'"
           />
         </div>
 
@@ -16,14 +17,17 @@ function Dinaj() {
           <img
             className="react-logo"
             src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/react-js-icon.png"
+            alt="React Logo"
           />
           <img
             className="js-logo"
             src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/javascript-programming-language-icon.png"
+            alt="JavaScript Logo"
           />
         </div>
-        <p className="contributions"><strong>Contributions:</strong> Full production.</p>
-
+        <p className="contributions">
+          <strong>Contributions:</strong> Full production.
+        </p>
 
         <div className="dinaj-info-container">
           <p className="dinaj-info">
@@ -58,6 +62,7 @@ function Dinaj() {
               <img
                 className="dinaj-landing"
                 src="https://raw.githubusercontent.com/erichowington/portfolio/8e67318ef77239ec55c688c0cd47618821dd1f7e/public/Images/dinaj-ui/dinaj-ui-home.png"
+                alt="App landing page"
               />
             </div>
           </div>
@@ -67,18 +72,21 @@ function Dinaj() {
               <img
                 className="dinaj-answer"
                 src="https://raw.githubusercontent.com/erichowington/portfolio/8e67318ef77239ec55c688c0cd47618821dd1f7e/public/Images/dinaj-ui/dinaj-ui-answer.png"
+                alt="answer for what type of jacket based on the users location"
               />
             </div>
             <div className="example-wrapper">
               <img
                 className="dinaj-example"
                 src="https://raw.githubusercontent.com/erichowington/portfolio/8e67318ef77239ec55c688c0cd47618821dd1f7e/public/Images/dinaj-ui/dinaj-ui-example.png"
+                alt="An image of jacket, with the description of the jacket."
               />
             </div>
             <div className="report-wrapper">
               <img
                 className="dinaj-report"
                 src="https://raw.githubusercontent.com/erichowington/portfolio/8e67318ef77239ec55c688c0cd47618821dd1f7e/public/Images/dinaj-ui/dinaj-ui-report.png"
+                alt="an example of a full weather report"
               />
             </div>
           </div>
@@ -88,12 +96,14 @@ function Dinaj() {
               <img
                 className="dinaj-desktop-landing"
                 src="https://raw.githubusercontent.com/erichowington/portfolio/8e67318ef77239ec55c688c0cd47618821dd1f7e/public/Images/dinaj-ui/dinaj-ui-desktop.png"
+                alt="desktop landing page"
               />
             </div>
             <div className="desktop-recs-wrapper">
               <img
                 className="desktop-recs"
                 src="https://raw.githubusercontent.com/erichowington/portfolio/8e67318ef77239ec55c688c0cd47618821dd1f7e/public/Images/dinaj-ui/dinaj-ui-recs.png"
+                alt="a list of jacket reccomendations"
               />
             </div>
           </div>
@@ -126,42 +136,48 @@ function Dinaj() {
               <img
                 className="jacket-dinaj"
                 src="https://github.com/erichowington/DoINeedAJacket/blob/main/public/images/DINAJ-HEAVY.png?raw=true"
+                alt="image of a heavy jacket with text that reads'HEAVY' along with a description of a heavy jacket"
               />
               <img
                 className="jacket-dinaj"
                 src="https://github.com/erichowington/DoINeedAJacket/blob/main/public/images/DINAJ-LIGHT.png?raw=true"
+                alt="image of a light jacket with text that reads 'LIGHT' along with a description of a light jacket"
               />
               <img
                 className="jacket-dinaj"
                 src="https://github.com/erichowington/DoINeedAJacket/blob/main/public/images/DINAJ-MEDIUM.png?raw=true"
+                alt="image of a medium jacket with text that reads 'MEDIUM' along with a description of a medium jacket"
               />
               <img
                 className="jacket-dinaj"
                 src="https://github.com/erichowington/DoINeedAJacket/blob/main/public/images/DINAJ-NONE.png?raw=true"
+                alt="image of Arnold Schwarzenegger flexing his biceps shirtless with texts that reads 'NO JACKET'"
               />
             </div>
           </div>
         </div>
         <div className="dinaj-links">
-            <div className="git-hub-container">
-                <a
-                href="https://github.com/erichowington/DoINeedAJacket"
-                target="_blank"
-                >
-                <img
-                    className="dinaj-github"
-                    src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/github-icon.png"
-                />
-                </a>
-            </div>
-            <div className="website-container">
-                <a href="https://dinaj.netlify.app/" target="_blank">
-                <img
-                    className="dinaj-website"
-                    src="https://uxwing.com/wp-content/themes/uxwing/download/location-travel-map/world-globe-line-icon.png"
-                />
-                </a>
-            </div>
+          <div className="git-hub-container">
+            <a
+              href="https://github.com/erichowington/DoINeedAJacket"
+              target="_blank"
+            >
+              <img
+                className="dinaj-github"
+                src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/github-icon.png"
+                alt="github logo"
+              />
+            </a>
+          </div>
+          <div className="website-container">
+            <a href="https://dinaj.netlify.app/" target="_blank">
+              <img
+                className="dinaj-website"
+                src="https://uxwing.com/wp-content/themes/uxwing/download/location-travel-map/world-globe-line-icon.png"
+                alt="image of a globe"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>

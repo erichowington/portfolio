@@ -44,7 +44,7 @@ function AboutModal() {
                 <img
                   className="about-portrait"
                   src="https://raw.githubusercontent.com/erichowington/portfolio/ced61a3ab473d0600f45facf7a076a8317e69f6f/public/Images/about-portrait.png"
-                  alt="Portrait"
+                  alt="A blue and white portrait of a man"
                 />
               </div>
             </div>
