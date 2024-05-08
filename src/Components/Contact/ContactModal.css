@@ -159,8 +159,9 @@ body.active-modal {
     }
     .contact-info-header{
         width:50vw;
-        font-size: 2.5vh;
+        font-size: 2vh;
         border:none;
+        justify-self: left;
     }
     .personal-github{
         width:9vw;
