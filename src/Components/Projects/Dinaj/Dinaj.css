@@ -78,6 +78,7 @@
     width:45vw;
     overflow-x:scroll;
     padding:0 0 2vw 0;
+    justify-content: center;
 }
 
 .dinaj-answer{
