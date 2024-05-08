@@ -43,12 +43,14 @@ function ContactModal() {
                   <img
                     className="personal-github"
                     src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/github-icon.png"
+                    alt="github logo"
                   />
                 </a>
                 <a href="https://www.linkedin.com/in/erichowington/" target="_blank">
                   <img
                     className="linkedin"
                     src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/linkedin-square-icon.png"
+                    alt="linked in logo"
                   />
                 </a>
                 </div>
