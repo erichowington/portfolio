@@ -22,7 +22,6 @@ body.active-modal {
     z-index: 5;
 }
 .projects-modal-content {
-    /* Your existing styles */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -38,18 +37,15 @@ body.active-modal {
     margin: 15vh 0 0 0;
     z-index: 10;
     background-color: white;
-  
-    /* Set initial opacity to 0 */
     opacity: 0;
     
-    /* Define transition */
     transition: opacity 1s ease-in;
   }
-  
-  /* Add a class to trigger the animation */
   .projects-modal-content.animate-in {
     opacity: 1;
   }
+
+
 
 .close-projects-modal {
     position: absolute;
@@ -133,6 +129,27 @@ body.active-modal {
 .open-dinaj:hover{
     filter: none;
 }
+
+
+@media (max-width: 400px) {
+    .projects-modal-content {
+        flex-direction: column;
+        width:75vw;
+        height:80vh;
+    }
+    .rekt-logo-container{
+        width:40vw;
+        padding:0;
+    }
+    .hobbyr-logo-container{
+        width:40vw;
+        padding:0;
+    }
+    .dinaj-logo-container{
+        width:40vw;
+
+    }
+  }
 
 
 

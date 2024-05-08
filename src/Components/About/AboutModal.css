@@ -37,7 +37,12 @@ body.active-modal {
     flex-direction: column;
     overflow: scroll;
 }
-
+@media (max-width: 400px) {
+  .about-modal-content {
+      width: 80vw; 
+      height: 90vh; 
+  }
+}
 .close-about-modal {
     position: absolute;
     top: 10px;
@@ -70,6 +75,7 @@ body.active-modal {
     height:auto;
     padding:1vh;
 }
+
 
 .close-about-modal{
   font-family: "IBM Plex Sans";

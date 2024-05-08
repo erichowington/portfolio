@@ -45,6 +45,7 @@
     text-align: justify;
     padding:2vw;
 }
+
 .app-view{
     font-family:"IBM Plex Sans";
     font-weight:700;
@@ -60,6 +61,7 @@
     width:45vw;
     overflow-x:scroll;
 }
+
 .landing-wrapper{
     display:flex;
     justify-content: center;
@@ -242,4 +244,28 @@
     width:6vw;
     height:auto;
     transition: width 0.5s ease-in-out;
+}
+
+@media (max-width: 400px) {
+    .dinaj-ui-container{
+        width:80vw;
+    }
+    .dinaj-ui-container-2{
+        width:80vw;
+    }
+    .desktop-dinaj-container{
+        width:80vw;
+    }
+    .ui-info-dinaj{
+        width:80vw;
+    }
+    .dinaj-ui-closing{
+        width:60vw;
+    }
+    .design-statement{
+        width:60vw;
+    }
+    .jacket-container{
+        width:80vw;
+    }
 }
