@@ -33,7 +33,7 @@
   width:fit-content;
   padding:3em;
 }
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .app-wrapper{
     width:100vw;
     height:auto;
@@ -48,7 +48,7 @@
 
   }
   .app-header-title{
-    font-size: 3vh;
+    font-size: 2.5vh;
     font-weight:800;
     background-color: blue;
     color:white;
@@ -56,7 +56,7 @@
   
   }
   .header-name {
-    font-size: 8vh; 
+    font-size: 7.5vh; 
     padding:1vh;
   }
   .section-container{

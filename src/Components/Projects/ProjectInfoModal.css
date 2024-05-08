@@ -29,7 +29,7 @@ body.active-modal {
     display: flex;
     overflow-y:auto;
 }
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .project-info-modal-content{
         width:80vw;
         height:90vh;
