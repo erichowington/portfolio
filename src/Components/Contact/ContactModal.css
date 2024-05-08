@@ -184,4 +184,9 @@ body.active-modal {
         transition: width 0.5s ease-in-out;
     
     }
+    .open-contact-modal{
+        font-family:"IBM Plex Sans";
+        font-size: 4vh;
+        font-weight: 500;
+    }
 }

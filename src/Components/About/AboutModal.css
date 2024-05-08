@@ -358,4 +358,9 @@ body.active-modal {
   .about-closing-statment-2{
     width:50vw;
   }
+  .open-about-modal{
+      font-family:"IBM Plex Sans";
+        font-size: 4vh;
+        font-weight: 500;
+  }
   }
