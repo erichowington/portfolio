@@ -385,3 +385,188 @@
     height:auto;
     transition: width 0.5s ease-in-out;
 }
+
+@media (max-width: 400px) {
+
+  .rekt-header-container{
+    margin:0 0 0 5vw;
+    padding:1vw;
+  }
+
+  .rekt-info-logo{
+    width:30vw;
+    margin:0 0 0 5vw;
+  }
+
+  .rekt-tech-stack-container{
+    margin:0 0 0 5vw;
+  }
+
+  .rekt-info-container{
+    width:75vw;
+  }
+  .rekt-landing{
+    width:80vw;
+  }
+  .rekt-ui-container{
+    width:80vw;
+  }
+  .REKT-browse {
+    width: auto;
+    height: 40vh;
+  }
+  .REKT-browse:hover {
+    width: auto;
+    height: 50vh;
+    transition: all 1.3s ease;
+  }
+  .rekt-details {
+    width: auto;
+    height: 40vh;
+  }
+  .rekt-details:hover {
+    width: auto;
+    height: 50vh;
+    transition: all 1.3s ease;
+  }
+  .rekt-reviews {
+    width: auto;
+    height: 40vh;
+  }
+  .rekt-reviews:hover {
+    width: auto;
+    height: 50vh;
+    transition: all 1.3s ease;
+  }
+  .add-review {
+    width: auto;
+    height: 40vh;
+  }
+  .add-review:hover {
+    width: auto;
+    height: 50vh;
+    transition: all 1.3s ease;
+  }
+  .my-review {
+    width: auto;
+    height: 40vh;
+  }
+  .my-review:hover {
+    width: auto;
+    height: 50vh;
+    transition: all 1.3s ease;
+  }
+  .my-favs {
+    width: auto;
+    height: 40vh;
+  }
+  .my-favs:hover {
+    width: auto;
+    height: 50vh;
+    transition: all 1.3s ease;
+  }
+  .rekt-info-body{
+    width:70vw;
+    font-size:2.25vh;
+    text-align: justify;
+  }
+  .rekt-goals{
+    font-size:5vh;
+    width:70vw;
+    color:blue;
+    padding:0 0 5vh 0;
+  }
+  .goal-1, .goal-2, .goal-3, .goal-4{
+    color:white;
+    background-color: rgb(149, 149, 149);
+    font-size: 2vh;
+    margin:3vh 0 2vh 0;
+    padding:2vh;
+
+  }
+  .rekt-info-body-2{
+    width:60vw;
+    font-size: 2vh;
+  }
+  .ux-header{
+    margin:3vh auto;
+    color:blue;
+    background-color: white;
+    border-bottom:.5vh dotted blue;
+    font-size: 8vh;
+  }
+  .rekt-ui-info{
+    width:70vw;
+    font-size:1.5vh;
+  }
+  .rekt-icons-wrapper{
+    align-items: center;
+    justify-content: center;
+    width:80vw;
+  }
+  .heart-icon {
+    width: 12vw;
+    height: auto;
+    padding: 2vh;
+  }
+  .plus-icon {
+    width: 12vw;
+    height: auto;
+    padding: 2vh;
+  }
+  .star-icon {
+    width: 12vw;
+    height: auto;
+    padding: 2vh;
+  }
+  .rekt-logos-container{
+    width:80vw;
+    align-items: center;
+  }
+  .rekt-thumbnail-logo {
+    height: 26vw;
+    width: auto;
+    padding: 1vh 2vw 1vh 2vw;
+  }
+  .rekt-logo-black {
+    height: 24vw;
+    width: auto;
+    padding: 1vh 2vw 1vh 2vw;
+  }
+  .rekt-logo-neon-purp {
+    height: 34vw;
+    width: auto;
+    padding: 1.5vw;
+  }
+  .rekt-logo-neon-pink {
+    height: 34vw;
+    width: auto;
+    padding: 1.5vw;
+  }
+  .illustrations-container{
+    width:75vw;
+  }
+  .rekt-links{
+    padding:8vh 0 0 3vh;
+  }
+  .rekt-github{
+    width:10vw;
+    height:auto;
+    filter: invert(8%) sepia(98%) saturate(7139%) hue-rotate(247deg) brightness(98%) contrast(145%);
+  }
+  .rekt-github:hover{
+      width:12vw;
+      height:auto;
+      transition: width 0.5s ease-in-out;
+  }
+  .rekt-website{
+      width:10vw;
+      height:auto;
+      filter: invert(8%) sepia(98%) saturate(7139%) hue-rotate(247deg) brightness(98%) contrast(145%);
+  }
+  .rekt-website:hover{
+      width:12vw;
+      height:auto;
+      transition: width 0.5s ease-in-out;
+  }
+}
