@@ -94,43 +94,35 @@ body.active-modal {
     transition: all 1s ease;
 
 }
-.email-head{
-    color:blue;
-    font-weight: 700;
-    padding:1vh;
-    font-size: 3vh;
-}
-.email-container{
-    width:30vw;
-    font-family: "IBM Plex Sans";
-    font-weight: 600;
-    display:flex;
-    flex-direction:row;
-    justify-content: center;
-    align-items: center;
-    margin:0 auto;
-    color:black;
-    padding:6vw;
+.contact-info-header{
+    padding:8vh;
+    font-family:"IBM Plex Sans";
+    font-size:2vh;
+    text-align: justify;
+    font-weight:500;
+    border-bottom:.5vh dotted blue;
+    width:25vw;
+    margin:2vh auto;
 }
 
 .personal-github{
-    width:5vw;
+    width:3vw;
     padding:1vh;
     height:auto;
 }
 .personal-github:hover{
-    width:6vw;
+    width:4vw;
     height:auto;
     transition: width 0.5s ease-in-out;
 }
 .linkedin{
-    width:5vw;
+    width:3vw;
     padding:1vh;
     height:auto;
 
 }
 .linkedin:hover{
-    width:6vw;
+    width:4vw;
     height:auto;
     transition: width 0.5s ease-in-out;
 

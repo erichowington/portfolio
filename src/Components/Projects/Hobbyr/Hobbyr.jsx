@@ -12,6 +12,7 @@ function Hobbyr() {
             <img
               className="hobbyr-info-logo"
               src="https://github.com/erichowington/hobbyr/blob/dev/public/images/hobbyr-logos/hobbyr-logo-orange.png?raw=true"
+              alt="orange logo that reads 'hobbyr'"
             />
           </div>
         
@@ -19,18 +20,22 @@ function Hobbyr() {
           <img
             className="react-logo"
             src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/react-js-icon.png"
+            alt="react logo"
           />
           <img
             className="js-logo"
             src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/javascript-programming-language-icon.png"
+            alt="JavaScript Logo"
           />
           <img
             className="django-logo"
             src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/django-icon.png"
+            alt="Django Logo"
           />
           <img
             className="python-logo"
             src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/python-programming-language-icon.png"
+            alt="Python Logo"
           />
         </div>
         <p className="contributions"><strong>Contributions:</strong> Project Manager, Front End, Back End, UX, UI</p>
@@ -50,16 +55,32 @@ function Hobbyr() {
         <div className="hobbyr-screenshots">
           <div className="hobbyr-ui-container">
               <div className="login-wrapper">
-                <img className="hobbyr-login" src="https://raw.githubusercontent.com/erichowington/portfolio/f9baf8da820a53edfd6349c173c003bec6f745cd/public/Images/hobbyr-ui/hobbyr-LogIn.png"/>
+                <img 
+                  className="hobbyr-login" 
+                  src="https://raw.githubusercontent.com/erichowington/portfolio/f9baf8da820a53edfd6349c173c003bec6f745cd/public/Images/hobbyr-ui/hobbyr-LogIn.png"
+                  alt="log in page for hobbyr"
+                  />
               </div>
               <div className="browse-wrapper">
-                <img className="hobbyr-browse" src="https://raw.githubusercontent.com/erichowington/portfolio/f9baf8da820a53edfd6349c173c003bec6f745cd/public/Images/hobbyr-ui/hobbyr-browse.png"/>
+                <img 
+                  className="hobbyr-browse" 
+                  src="https://raw.githubusercontent.com/erichowington/portfolio/f9baf8da820a53edfd6349c173c003bec6f745cd/public/Images/hobbyr-ui/hobbyr-browse.png"
+                  alt="brose page for hobbyr"
+                  />
               </div>
               <div className="create-wrapper">
-                <img className="hobbyr-create" src="https://raw.githubusercontent.com/erichowington/portfolio/f9baf8da820a53edfd6349c173c003bec6f745cd/public/Images/hobbyr-ui/hobbyr-create.png"/>
+                <img 
+                  className="hobbyr-create" 
+                  src="https://raw.githubusercontent.com/erichowington/portfolio/f9baf8da820a53edfd6349c173c003bec6f745cd/public/Images/hobbyr-ui/hobbyr-create.png"
+                  alt="page for user to create and post a project"
+                  />
               </div>
               <div className="details-wrapper">
-                <img className="hobbyr-details" src="https://raw.githubusercontent.com/erichowington/portfolio/f9baf8da820a53edfd6349c173c003bec6f745cd/public/Images/hobbyr-ui/hobbyr-project.png"/>
+                <img 
+                  className="hobbyr-details" 
+                  src="https://raw.githubusercontent.com/erichowington/portfolio/f9baf8da820a53edfd6349c173c003bec6f745cd/public/Images/hobbyr-ui/hobbyr-project.png"
+                  alt="a page that shows the details of the selected project∏"
+                  />
               </div>
               <div className="comment-wrapper">
                 <img className="hobbyr-comment" src="https://raw.githubusercontent.com/erichowington/portfolio/f9baf8da820a53edfd6349c173c003bec6f745cd/public/Images/hobbyr-ui/hobbyr-comment.png"/>

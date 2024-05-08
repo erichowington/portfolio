@@ -31,8 +31,10 @@ function ContactModal() {
                 <div className="contact-header">CONTACT</div>
                 <button onClick={toggleModal}className="close-contact-modal">X</button>
               </div>
-              <div className="email-container">
-                <p className="email-title"><strong className="email-head">EMAIL:</strong> ehowington94@gmail.com</p>
+              <div className="contact-info-container">
+                <p className="contact-info-header">
+                  Lets connect, shoot me an email directly at <strong> ehowington94@gmail.com</strong> or via social media.
+                </p>
               </div>
 
               <div className="socials">

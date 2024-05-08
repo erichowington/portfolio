@@ -5,7 +5,7 @@ import "./AboutModal.css";
 
 function AboutModal() {
   const [modal, setModal] = useState(false);
-  const [showDogImage, setShowDogImage] = useState(false); // Add state for showing the dog image
+  const [showDogImage, setShowDogImage] = useState(false);
 
   const toggleModal = () => {
     setModal(!modal);
@@ -34,7 +34,9 @@ function AboutModal() {
           <div className="about-modal-content">
             <div className="about-title-container">
               <p className="about-title">ABOUT</p>
-              <button onClick={toggleModal} className="close-about-modal">X</button>
+              <button onClick={toggleModal} className="close-about-modal">
+                X
+              </button>
             </div>
             <div className="about-header-container">
               <p className="about-header-body">
@@ -49,7 +51,7 @@ function AboutModal() {
               </div>
             </div>
             <div className="about-body-container">
-              <p className="about-statment">
+              <div className="about-statment">
                 As a creatively inclined software engineer with a passion for
                 building interpersonal connections, I've followed a diverse
                 career path. Starting as an entry-level sales associate, I
@@ -61,8 +63,8 @@ function AboutModal() {
                 experiences, tenacity for learning, and expertise in full-stack
                 development to solve technical challenges for clients while
                 fostering meaningful relationships.
-              </p>
-              <p className="about-statment-2">
+              </div>
+              <div className="about-statment-2">
                 In my personal life, I've always endeavored to learn as much as
                 possible every day. Whether it's screen printing, building
                 furniture, graphic design, or now software engineering, I've
@@ -74,7 +76,7 @@ function AboutModal() {
                   <br />
                   or do you do it like it's all a part of the dance?"
                 </p>
-              </p>
+              </div>
               <p className="about-statment-3">
                 This mantra has been a constant guide for me, resonating deeply
                 because it emphasizes that our mindset towards challenges shapes
@@ -217,7 +219,11 @@ function AboutModal() {
             </div>
             <div className="about-closing-container">
               {showDogImage && (
-                <img className="Luke" src={dogImage} alt="an image of my dog Luke who is an English Pointer/Lab mix" />
+                <img
+                  className="Luke"
+                  src={dogImage}
+                  alt="an image of my dog Luke who is an English Pointer/Lab mix"
+                />
               )}
               <p className="about-closing-statment">
                 When I'm not at the computer-- I'm usually hanging with my{" "}
