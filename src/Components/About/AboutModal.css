@@ -37,12 +37,7 @@ body.active-modal {
     flex-direction: column;
     overflow: scroll;
 }
-@media (max-width: 400px) {
-  .about-modal-content {
-      width: 80vw; 
-      height: 90vh; 
-  }
-}
+
 .close-about-modal {
     position: absolute;
     top: 10px;
@@ -287,4 +282,80 @@ body.active-modal {
   .build{
     font-weight:900;
     color:blue;
+  }
+
+  @media (max-width: 400px) {
+    .about-modal-content {
+        width: 80vw; 
+        height: 90vh; 
+        padding:2vh;
+    }
+    .about-header-container{
+      display:flex;
+      flex-direction: column;
+    }
+    .about-header-body{
+      font-size: 4vh;
+      width:75vw;
+      
+    }
+    .about-body-container{
+      width:80vw;
+    }
+    .about-statment{
+      width:75vw;
+      margin:2.5vh 0 0 1vh;
+    }
+    .about-statment-2{
+      margin:2vh 0 0 0;
+      width:60vw;
+    }
+    .ram-quote{
+      width:68vw;
+    }
+    .about-statment-3{
+      width:68vw;
+    }
+    .skills-header{
+      margin:6vh 0 6vh 0;
+    }
+    .skills-container{
+      width:75vw;
+      align-items: start;
+      padding:3vh 0 2vh 0;
+    }
+    .skill-icon{
+      width:auto;
+      height:8vw;
+      padding:1.5vw;
+      
+    }
+    .skill-name {
+      position: absolute;
+      font-family: "IBM Plex Sans";
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0;
+      color: black;
+      background-color: rgb(255, 255, 255, 0.2);
+      font-size:1.75vh;
+      font-weight:600;
+      transition: opacity 0.3s ease;
+    }
+    .soft-skills-container{
+      width:65vw;
+      padding:2vw;
+      text-align: justify;
+  
+  }
+  .about-closing-statment{
+    width:50vw;
+  }
+  .Luke{
+    width:50vw;
+  }
+  .about-closing-statment-2{
+    width:50vw;
+  }
   }
